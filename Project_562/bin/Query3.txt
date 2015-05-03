@@ -1,0 +1,8 @@
+EMF
+mfs.cust.get(i),mfs.month.get(i),mfs.avg_1_quant.get(i),mfs.avg_0_quant.get(i),mfs.avg_2_quant.get(i)
+tuple.year==1997
+cust,month
+2
+avg_0_quant,avg_1_quant,avg_2_quant
+mf.cust.get(i).equals(tuple.cust)&&tuple.month<mf.month.get(i),mf.cust.get(i).equals(tuple.cust)&&tuple.month>mf.month.get(i)
+null

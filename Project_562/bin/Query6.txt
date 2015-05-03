@@ -1,0 +1,8 @@
+EMF
+mfs.prod.get(i),mfs.quant.get(i)
+true
+prod,quant
+2
+count_1_prod,count_2_prod
+mf.prod.get(i).equals(tuple.prod),mf.prod.get(i).equals(tuple.prod)&&tuple.quant>mf.quant.get(i)
+mf.count_2_prod.get(i)==mf.count_1_prod.get(i)/2

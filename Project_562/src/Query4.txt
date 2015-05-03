@@ -1,0 +1,8 @@
+EMF
+mfs.prod.get(i),mfs.month.get(i),mfs.count_3_quant.get(i)
+tuple.year==1997
+prod,month
+3
+avg_1_quant,avg_2_quant,count_3_quant
+mf.prod.get(i).equals(tuple.prod)&&tuple.month==mf.month.get(i)-1,mf.prod.get(i).equals(tuple.prod)&&tuple.month==mf.month.get(i)+1,mf.prod.get(i).equals(tuple.prod)&&tuple.month==mf.month.get(i)&&tuple.quant>mf.avg_1_quant.get(i)&&tuple.quant<mf.avg_2_quant.get(i)
+null

@@ -1,0 +1,8 @@
+EMF
+mfs.cust.get(i),mfs.prod.get(i),mfs.avg_1_quant.get(i),mfs.avg_2_quant.get(i)
+true
+cust,prod
+2
+avg_1_quant,avg_2_quant
+mf.cust.get(i).equals(tuple.cust)&&mf.prod.get(i).equals(tuple.prod),(!mf.cust.get(i).equals(tuple.cust))&&mf.prod.get(i).equals(tuple.prod)
+null

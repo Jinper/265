@@ -1,0 +1,8 @@
+EMF
+mfs.cust.get(i),mfs.avg_1_quant.get(i),mfs.avg_2_quant.get(i),mfs.avg_3_quant.get(i)
+tuple.year==1997
+cust
+3
+avg_1_quant,avg_2_quant,avg_3_quant
+mf.cust.get(i).equals(tuple.cust)&&tuple.state.equals("NY"),mf.cust.get(i).equals(tuple.cust)&&tuple.state.equals("NJ"),mf.cust.get(i).equals(tuple.cust)&&tuple.state.equals("CT")
+mf.avg_1_quant.get(i)>mf.avg_2_quant.get(i)&&mf.avg_1_quant.get(i)>mf.avg_3_quant.get(i)

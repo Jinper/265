@@ -1,0 +1,8 @@
+EMF
+mfs.prod.get(i),mfs.month.get(i),mfs.sum_1_quant.get(i)/mfs.sum_2_quant.get(i)
+tuple.year==1997
+prod,month
+2
+sum_1_quant,sum_2_quant
+mf.prod.get(i).equals(tuple.prod)&&mf.month.get(i)==tuple.month,mf.prod.get(i).equals(tuple.prod)
+null
